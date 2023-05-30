@@ -13,6 +13,13 @@ body {
   color: #000;
 }
 
+.bg-arrow {
+  background-image: url('./image/aeroplane.png');
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right center;
+}
+
 
 /* common css */
 .myBTN {
@@ -135,7 +142,7 @@ body {
 
 /* Top Header */
 .logo_main {
-  height: 65px;
+  height: 60px;
 }
 
 .mainHeader {
@@ -423,6 +430,26 @@ body {
   display: block;
 }
 
+@media (min-width:768px) and (max-width:1200px) {
+  .intro-30 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #b5abab;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 550px !important;
+    padding: 20px;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  }
+
+  .intro-30-main {
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
 @media (min-width:320px) and (max-width:500px) {
   .pradeepimg2 {
     display: none;
@@ -459,6 +486,57 @@ body {
   .footerwrap {
     text-align: center;
   }
+
+  .bg-arrow {
+    background-image: url('./image/aeroplane.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center center;
+  }
+
+  .laptop-section-main-one {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .laptop-section-main-two {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .laptop-image {
+    width: 100%;
+  }
+
+  .laptop-image-div {
+    width: 60%;
+  }
+
+  .openMouth-section-main-one {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .openMouth-section-main-two {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .openMouth-image {
+    width: 100%;
+  }
+
+  .openMouth-image-div {
+    width: 60%;
+  }
 }
 
 .skills_div {
@@ -476,6 +554,16 @@ body {
   border-radius: 22px;
   font-size: 12px;
   margin: 35px 580px;
+}
+
+.myBTNsimp2 {
+  text-align: center;
+  border: 1px solid #16C2D9;
+  color: #16C2D9;
+  padding: 10px 40px;
+  border-radius: 22px;
+  font-size: 12px;
+  margin: 35px auto;
 }
 
 .myBTNsimply {
@@ -498,6 +586,64 @@ body {
   .carousel-inner .carousel-item>div:first-child {
     display: block;
   }
+
+  .bg-arrow {
+    background-image: url('./image/aeroplane.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center center;
+  }
+
+  .laptop-section-main-one {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+  }
+
+  .laptop-section-main-two {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .laptop-image {
+    width: 100%;
+  }
+
+  .laptop-image-div {
+    width: 60%;
+  }
+
+  .openMouth-section-main-one {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+  }
+
+  .openMouth-section-main-two {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .openMouth-image {
+    width: 100%;
+  }
+
+  .openMouth-image-div {
+    width: 60%;
+  }
+
+  .intro-30-main {
+    display: flex !important;
+    align-items: center !important;
+  }
 }
 
 .carousel-inner .carousel-item.active,
@@ -517,6 +663,11 @@ body {
   .carousel-inner .carousel-item-left.active,
   .carousel-inner .carousel-item-prev {
     transform: translateX(-33.333%);
+  }
+
+  .intro-30-main {
+    display: flex !important;
+    align-items: center !important;
   }
 }
 
@@ -764,4 +915,95 @@ body {
   position: absolute;
   top: -180px;
   right: -100px;
+}
+
+.aeroplane {
+  position: absolute;
+  width: 179.26px;
+  height: 179.26px;
+  left: 556.13px;
+  top: 350px;
+  background: url(image/aeroplane.jpeg);
+  transform: rotate(4.2deg);
+}
+
+.aeroplane {
+  position: absolute;
+  width: 179.26px;
+  height: 179.26px;
+  left: 556.13px;
+  top: 350px;
+  background: url(image/aeroplane.jpeg);
+  transform: rotate(4.2deg);
+}
+
+.mentor-section-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.laptop-section-main-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+}
+
+.laptop-section-main-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+.openMouth-section-main-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+}
+
+.openMouth-section-main-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+.mentor-image-div {
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* .laptop-section-comn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.mentor-image {
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px rgb(190, 189, 190);
+  border-radius: 5px;
+}
+
+.laptop-image {
+  width: 100%;
+}
+
+.openMouth-image {
+  width: 100%;
+}
+
+.openMouth-image-div {
+  width: 25%;
+}
+
+.laptop-image-div {
+  width: 40%;
+}
+
+.paragraphs {
+  margin: 30px auto;
 }
